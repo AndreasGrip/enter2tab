@@ -1,0 +1,27 @@
+{
+  "name": "enter2tab",
+  "version": "1.1.0",
+  "description": "VanillaJavascript: Makes enter/return behave as tab on webpages if class enter2tab is set on element",
+  "main": "enter2tab.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasGrip/enter2tab.git"
+  },
+  "keywords": [
+    "VanillaJavascript",
+    "tab",
+    "enter",
+    "return",
+    "input",
+    "inputfield"
+  ],
+  "author": "Andreas Grip",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/AndreasGrip/enter2tab/issues"
+  },
+  "homepage": "https://github.com/AndreasGrip/enter2tab#readme"
+}

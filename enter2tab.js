@@ -33,7 +33,7 @@ function simulateTab() {
       end = true;
     }
     if (obj && obj.contentEditable === 'true') found = true;
-    if (obj && (obj.tagName === 'INPUT' || obj.tagName === 'TEXTAREA' || obj.tagName === 'A' || obj.tagName === 'AUDIO' || obj.tagName === 'VIDEO' || obj.tagName === 'SELECT')) found = true;
+    if (obj && (obj.tagName === 'INPUT' || obj.tagName === 'TEXTAREA' || obj.tagName === 'A' || obj.tagName === 'AUDIO' || obj.tagName === 'VIDEO' || obj.tagName === 'SELECT' || obj.tagName === 'BUTTON' || obj.tagName === 'PROGRESS')) found = true;
     if (found) {
       // tab don't stop on hidden objects
       if (obj.style.display === 'none') found = false;
