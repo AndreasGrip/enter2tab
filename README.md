@@ -7,6 +7,9 @@ The improvement is simply to move the marker to the end while tab set it at the 
 
 Have a look at enter2tab.html for example.
 
+Can be installed using npm.
+npm i enter2tab
+
 Hope you enjoy this little hack, save you a few hours of work and some sanity.
 
 Best regards
